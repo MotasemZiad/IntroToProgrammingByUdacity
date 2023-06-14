@@ -1,0 +1,52 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 20px;
+}
+
+.animal-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  width: 300px;
+  padding: 15px;
+  border: 1px solid #c3c3c3;
+  box-shadow: 4px 4px 4px rgb(78%, 78%, 78%);
+}
+
+.card img {
+  width: 300px;
+  height: 200px;
+}
+
+.info {
+  margin-top: 10px;
+  padding: 8px;
+  border: 1px solid #c3c3c3;
+}
+
+.fact {
+  font-style: italic;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li span {
+  font-weight: bold;
+}
